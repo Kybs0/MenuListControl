@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApplication6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfApplication6="clr-namespace:WpfApplication6"
+        Title="MainWindow" Height="350" Width="800" Background="LightGray">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <wpfApplication6:TitleListControl Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <wpfApplication6:TitleListControl.TitleListItems>
+                <wpfApplication6:TitleListItemModel Name="中国" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="小日本" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="中华台北"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="美国" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="俄罗斯"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="英国"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="黎巴嫩"></wpfApplication6:TitleListItemModel>
+            </wpfApplication6:TitleListControl.TitleListItems>
+        </wpfApplication6:TitleListControl>
+        <wpfApplication6:TitleListControl Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <wpfApplication6:TitleListControl.TitleListItems>
+                <wpfApplication6:TitleListItemModel Name="中国" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="小日本" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="中华台北"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="美国" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="俄罗斯"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="英国"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="黎巴嫩"></wpfApplication6:TitleListItemModel>
+            </wpfApplication6:TitleListControl.TitleListItems>
+        </wpfApplication6:TitleListControl>
+        <wpfApplication6:TitleListControl Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <wpfApplication6:TitleListControl.TitleListItems>
+                <wpfApplication6:TitleListItemModel Name="中国" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="小日本" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="中华台北"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="美国" ></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="俄罗斯"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="英国"></wpfApplication6:TitleListItemModel>
+                <wpfApplication6:TitleListItemModel Name="黎巴嫩"></wpfApplication6:TitleListItemModel>
+            </wpfApplication6:TitleListControl.TitleListItems>
+        </wpfApplication6:TitleListControl>
+    </Grid>
+</Window>
